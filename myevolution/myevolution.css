@@ -1,8 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Agdasima&family=Bebas+Neue&family=Belanosima:wght@400;600;700&display=swap');
-/*font-family: 'Abril Fatface', cursive;
+@import url('https://fonts.googleapis.com/css2?family=Poltawski+Nowy&display=swap');
+/*
+font-family: 'Abril Fatface', cursive;
 font-family: 'Agdasima', sans-serif;
 font-family: 'Bebas Neue', sans-serif;
-font-family: 'Belanosima', sans-serif;*/
+font-family: 'Belanosima', sans-serif;
+font-family: 'Poltawski Nowy', serif;
+*/
 
 
 body{
@@ -26,11 +30,31 @@ body{
     top: 0px;
 }
 
+.carrosel{
+    background-color: steelblue;
+    width: 100%;
+    height: 60px;
+    margin-top: 130px;
+}
+
+.slider{
+    display: block;
+    height: 100%;
+    height: 60px;
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+}
+
+.slider li{
+    list-style: none;
+    position: absolute;
+}
+
 .primeiro_conteudo{
     background-color: rgb(122, 212, 70);
     width: 50%;
     height: 600px;  
-    margin-top: 145px;
 }
 
 .barra_conteudo{
@@ -82,7 +106,7 @@ body{
 }
 
 .lista1{
-    font-family: 'Belanosima', sans-serif;
+    font-family: 'Poltawski Nowy', serif;
     font-size: 20px;
     width: 200px;
     height: 200px;
@@ -94,9 +118,15 @@ body{
     gap: 10px;
     letter-spacing: -1px;
 }
+
+.textl2{
+    font-family: 'Poltawski Nowy', serif;
+    color: white;
+    font-size: 25px;
+}
 .lista2{
-    font-family: 'Belanosima', sans-serif;
-    font-size: 20px;
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 15px;
     width: 200px;
     height: 200px;
     background-color: rgb(0, 0, 0);
@@ -107,8 +137,8 @@ body{
     letter-spacing: -1px;
 }
 .lista3{
-    font-family: 'Belanosima', sans-serif;
-    font-size: 20px;
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 15px;
     width: 200px;
     height: 200px;
     background-color: rgb(0, 0, 0);
@@ -119,14 +149,42 @@ body{
     letter-spacing: -1px;
 }
 .icons{
-    font-family: 'Belanosima', sans-serif;
     width: 250px; 
     height: 200px;
-    background-color: salmon;
+    background-color: rgb(0, 0, 0);
     margin-left: 80px;
     display: flex;
     flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+.texticons{
+    background-color: rgb(0, 0, 0);
+    font-family: 'Poltawski Nowy', serif;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.icons2{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 200px;
+    height: 80px;
+}
+.imgicons{
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+}
+
+.iconsre{
+    width: 40px;
+    height: 40px;
 }
 
 .linha-horizontal {
@@ -150,7 +208,7 @@ body{
     font-size: 14px;
     color: white;
     letter-spacing: px;
-    font-family: 'Belanosima', sans-serif;
+    font-family: 'Poltawski Nowy', serif;
 
 
 
@@ -158,12 +216,12 @@ body{
 .PDP{
     font-size: 13px;
     color: white;
-    font-family: 'Belanosima', sans-serif;
+    font-family: 'Poltawski Nowy', serif;
 }
 .TDU{
     font-size: 13px;
     color: white;
-    font-family: 'Belanosima', sans-serif;
+    font-family: 'Poltawski Nowy', serif;
 }
 .direitos{
     font-size: 13px;
