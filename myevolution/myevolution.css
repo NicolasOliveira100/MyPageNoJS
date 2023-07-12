@@ -24,31 +24,47 @@ body{
 .barra_superior{
     background-color: aqua;
     width: 100%;
-    height: 130px;
+    height: 120px;
     position: fixed;
     z-index: 999;
     top: 0px;
+    display: flex;
 }
 
-.carrosel{
-    background-color: steelblue;
+.logomarca img{
+    width: 160px;
+    height: auto;
+
+}
+
+.logo{
+    background-image: linear-gradient(to right, #3a0052, #7707d3, #7607aa );
+    width: 200px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logomarca{
+    
+}
+
+.register{
+    background-color: bisque;
     width: 100%;
-    height: 60px;
-    margin-top: 130px;
+    height: 50px;
+}
+
+
+.carrosel{
+    background-color: blueviolet;
+    width: 100%;
+    height: 190px;
 }
 
 .slider{
-    display: block;
-    height: 100%;
-    height: 60px;
-    margin: auto;
-    margin-top: 20px;
-    position: relative;
-}
-
-.slider li{
-    list-style: none;
-    position: absolute;
+    
 }
 
 .primeiro_conteudo{
@@ -242,4 +258,6 @@ a:hover{
     color: rgb(194, 191, 191);
     text-decoration: none;
 }
+
+
 
